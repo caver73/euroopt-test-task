@@ -1,0 +1,78 @@
+@import "~bootstrap/scss/bootstrap";
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.registration {
+  width: 100%;
+  max-width: 48em;
+  margin: 0 auto;
+  padding: 0 1.1875em;
+}
+
+img {
+  width: 15em;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1.8em;
+}
+
+.registration .btn {
+  display: block;
+  width: 100%;
+  background-color: #ff5200;
+  border: 0;
+}
+
+.form-group .asterik {
+  color: red;
+}
+
+@media (min-width: 768px) {
+  .form-group {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .form-group >
+   :last-child {
+    flex: 1;
+  }
+
+  label {
+    width: 40%;
+  }
+}

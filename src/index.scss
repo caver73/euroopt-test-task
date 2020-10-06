@@ -1,0 +1,19 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  color: #1c1c1c;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-family: AvenirNext, Arial;
+  font-weight: 400;
+  height: auto;
+  min-height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
